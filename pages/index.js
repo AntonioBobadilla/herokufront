@@ -11,7 +11,7 @@ const fetchAsync = async () => {
   return data;
 }
 
-fetchAsync().then(data => console.log(data[0]));
+fetchAsync().then(data => console.log("Data: ", data[0]));
 
 export default function Home() {
   return (
