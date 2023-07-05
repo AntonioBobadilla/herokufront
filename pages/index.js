@@ -5,13 +5,7 @@ import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const fetchAsync = async () => {
-  const result = await fetch('https://prueba-nodejs.herokuapp.com/api/users');
-  const data = await result.json();
-  return data;
-}
-
-fetchAsync().then(data => console.log("Data: ", data[0]));
+console.log("hola")
 
 export default function Home() {
   return (
